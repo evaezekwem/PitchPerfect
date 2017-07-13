@@ -39,6 +39,9 @@ class PlaySoundViewController: UIViewController {
         case .chipmunk:
             playSound(pitch: 1000)
             
+        case .vader:
+            playSound(pitch: -1000)
+            
         case .echo:
             playSound(echo: true)
 
