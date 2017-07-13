@@ -48,9 +48,6 @@ class PlaySoundViewController: UIViewController {
         case .reverb:
             playSound(reverb: true)
 
-
-        default:
-            break
         }
         configureUI(.playing)
         
